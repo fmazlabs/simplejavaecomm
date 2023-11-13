@@ -36,4 +36,6 @@ pipeline:
                     connectorRef: dockerhubfrancislabs
                     image: maven
                     shell: Sh
-                    command: mvn clean install
+                    command: |
+                      cd shopfront
+                      mvn clean install

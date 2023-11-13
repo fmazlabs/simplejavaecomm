@@ -38,4 +38,4 @@ pipeline:
                     shell: Sh
                     command: |-
                       cd shopfront
-                      mvn --addExports=java.base/java.lang=ALL-UNNAMED clean install
+                      mvn clean install
